@@ -99,3 +99,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# stuff created by for the deployment to lambda
+*.dist-info
+certifi/
+chardet/
+idna/
+requests/
+urllib3/
+slackurl
+iamrole
+*.zip
