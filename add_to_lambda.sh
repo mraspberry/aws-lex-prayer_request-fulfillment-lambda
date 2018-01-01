@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash -x
+#!/usr/bin/env bash
 
 ## REQUIRES YOU CREATE SLACKURL AND IAMROLE FILES
 LAMBDA_ENV_VARS="Variables={SLACK_WEBHOOK_URL=$(cat slackurl)}"
